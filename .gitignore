@@ -3,23 +3,21 @@ node_modules/
 __pycache__/
 *.pyc
 venv/
-env/
 
 # Environment variables
 .env
 config.env
-.env.local
 
 # OS files
 .DS_Store
 
 # Upload directories
-FINAL_H/fire/uploads/*
-!FINAL_H/fire/uploads/.gitkeep
-FINAL_H/fire/static/profile_images/*
-!FINAL_H/fire/static/profile_images/.gitkeep
-FINAL_H/fire/static/reports/*
-!FINAL_H/fire/static/reports/.gitkeep
+uploads/*
+!uploads/.gitkeep
+static/profile_images/*
+!static/profile_images/.gitkeep
+static/reports/*
+!static/reports/.gitkeep
 
 # IDE files
 .vscode/
