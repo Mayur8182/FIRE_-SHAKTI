@@ -1,0 +1,12 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+config.env
+.DS_Store
+uploads/*
+!uploads/.gitkeep
+static/profile_images/*
+!static/profile_images/.gitkeep
+static/reports/*
+!static/reports/.gitkeep
