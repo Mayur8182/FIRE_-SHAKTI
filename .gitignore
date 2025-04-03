@@ -1,12 +1,24 @@
+# Dependencies
 node_modules/
 __pycache__/
 *.pyc
+venv/
+
+# Environment variables
 .env
 config.env
+
+# OS files
 .DS_Store
+
+# Upload directories
 uploads/*
 !uploads/.gitkeep
 static/profile_images/*
 !static/profile_images/.gitkeep
 static/reports/*
 !static/reports/.gitkeep
+
+# IDE files
+.vscode/
+.idea/
